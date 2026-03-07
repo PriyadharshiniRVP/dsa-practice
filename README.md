@@ -7,7 +7,7 @@ The goal of this project is to build a solid foundation in computational logic a
 
 ## Topics Covered
 
-### 1. Arrays
+### 1. Arrays & Strings
 - Two Pointers Technique
 - Sliding Window Patterns
 - Prefix Sums
