@@ -2,6 +2,8 @@ package strings;
 import java.util.HashMap;
 import java.util.Scanner;
 
+//using hashmap
+
 
 public class nonrepeat {
     
