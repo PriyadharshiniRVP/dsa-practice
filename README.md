@@ -21,6 +21,10 @@ The goal of this project is to build a solid foundation in computational logic a
 - Row and Column Traversal
 - Matrix Transformations (Transpose)
 - Diagonal Summation
+### 4. Bit Manipulation
+- XOR, AND and OR Operations
+-  use less memory, and uncover elegant solutions to tricky problems 
+like subsets, parity checks, and optimization.
 
 ## Project Structure
 - Files are named according to the specific problem or pattern.
