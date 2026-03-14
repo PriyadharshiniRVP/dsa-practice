@@ -15,15 +15,19 @@ public class minsizesubarraysum {
         
     }
     private static int findminlensubarray(int[] arr,int target){
-        int minLen=0;
+        int minLen=Integer.MAX_VALUE;
         int left=0;
+        int sum=0;
         for(int right=0;right<arr.length;right++){
-            if(arr[left]+arr[right] == target){
-               left++;
+            sum += arr[right];
+            while(sum>=target){
+            minLen=Math.min(minLen, right-left+1);
+            sum -=arr[left];
+            left++;
 
             }
-            minLen=Math.min(minLen, right-left+1);
         }
+        if(minLen==Integer.MAX_VALUE){ return 0;}
         return minLen;
 
     }
